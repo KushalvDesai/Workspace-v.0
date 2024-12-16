@@ -9,7 +9,6 @@ The **Workspace Management System** is a web-based application built using **PHP
 ### 1. **User Authentication**
    - Secure login system with password hashing (using `bcrypt`).
    - Session-based authentication to ensure user security.
-   - "Remember Me" functionality for seamless access.
 
 ### 2. **Team Member Management**
    - Add, edit, and delete team members.
@@ -18,6 +17,7 @@ The **Workspace Management System** is a web-based application built using **PHP
      - Name
      - Gmail Link
      - Drive Link
+     - Several other google linked apps
      - Profile Picture
    - User-specific visibility: Each user can only view and manage members added by them.
 
@@ -49,7 +49,7 @@ The **Workspace Management System** is a web-based application built using **PHP
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/workspace-management-system.git
+   git clone https://github.com/KushalvDesai/Workspace-v.0.git
    cd workspace-management-system
    ```
 
@@ -66,6 +66,10 @@ The **Workspace Management System** is a web-based application built using **PHP
      - `id` (AUTO_INCREMENT, PRIMARY KEY)
      - `user_id` (VARCHAR, FOREIGN KEY linked to `users.user_id`)
      - `acc_name`, `gmail`, `drive`, `pfp` (profile picture path)
+   - `workspace_apps`:
+     - `id` (AUTO_INCREMENT, PRIMARY KEY)
+     - `workspace_id` (VARCHAR, FOREIGN KEY linked to `users.user_id`)
+     - `app_name` and `applink`  
 
 3. **Configure Database Connection:**
    Update the database credentials in PHP files (e.g., `login.php`, `add_member.php`, etc.):
@@ -92,38 +96,8 @@ The **Workspace Management System** is a web-based application built using **PHP
    - `edit_member.php`: Form to edit an existing member's details.
    - `delete_member.php`: Deletes a team member.
 
-3. **Database:**
-   - SQL file for setting up `users` and `workspace` tables.
-
 4. **Assets:**
    - Background images and uploaded profile pictures stored in the `uploads` folder.
 
 ---
 
-## Screenshots
-
-1. **Login Page**
-   ![Login Page](path-to-your-screenshot)
-
-2. **Dashboard**
-   ![Dashboard](path-to-your-screenshot)
-
-3. **Add Member Form**
-   ![Add Member](path-to-your-screenshot)
-
----
-
-## Future Improvements
-
-- Add role-based access control for admins.
-- Integrate search and filter options for team members.
-- Implement email notifications on adding or editing members.
-- Enhance the UI with animations and micro-interactions.
-
----
-
-## Contributing
-
-Feel free to fork the repository, submit pull requests, or raise issues. Contributions are welcome!
-
----
