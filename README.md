@@ -1,6 +1,6 @@
 # Workspace Management System
 
-The **Workspace Management System** is a web-based application built using **PHP**, **MySQL**, and **HTML/CSS** with a focus on simplicity, security, and a clean user experience. It enables users to manage team members with intuitive functionality, modern UI design, and secure user authentication.
+The **Workspace Management System** is a web-based application built using **PHP**, **MySQL**, and **HTML/CSS** with a focus on simplicity, security, and a clean user experience. It enables users to manage accounts with intuitive functionality, modern UI design, and secure user authentication.
 
 ---
 
