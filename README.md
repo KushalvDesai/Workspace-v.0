@@ -10,7 +10,7 @@ The **Workspace Management System** is a web-based application built using **PHP
    - Secure login system with password hashing (using `bcrypt`).
    - Session-based authentication to ensure user security.
 
-### 2. **Team Member Management**
+### 2. **Account Management**
    - Add, edit, and delete team members.
    - Profile picture upload with automatic file handling.
    - Input fields include:
