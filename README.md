@@ -11,7 +11,7 @@ The **Workspace Management System** is a web-based application built using **PHP
    - Session-based authentication to ensure user security.
 
 ### 2. **Account Management**
-   - Add, edit, and delete team members.
+   - Add, edit, and delete accounts.
    - Profile picture upload with automatic file handling.
    - Input fields include:
      - Name
