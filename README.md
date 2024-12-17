@@ -54,7 +54,7 @@ The **Workspace Management System** is a web-based application built using **PHP
    ```
 
 2. **Setup Database:**
-   - Import the provided SQL file (DB Setup.sql) into your MySQL server.
+   - Import the provided SQL file (`DB Setup.sql`) into your MySQL server.
    - Ensure three tables: `users` (for authentication), `workspace` (for basic accounts) and `workspace_apps` (for additional linked apps).
 
    **SQL Structure:**
