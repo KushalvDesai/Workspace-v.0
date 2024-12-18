@@ -120,7 +120,7 @@ $conn->close();
     <style>
         /* CSS styles preserved */
         :root {
-            --background-image: url('virtual-backgrounds-v0-28tvaey1fmxa1.webp');
+            --background-image: url('wallpaperflare.com_wallpaper (4).jpg');
             --primary-color: #3498db;
             --text-color: #ecf0f1;
             --card-background: rgba(0, 0, 0, 0.8);
