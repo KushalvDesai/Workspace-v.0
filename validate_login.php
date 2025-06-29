@@ -1,7 +1,8 @@
 <?php
 session_start();
 
-$conn = new mysqli('127.0.0.1', 'u149605981_kvd', 'R1r1or2@rlrl', 'u149605981_workspace', 3306);
+// change these at time of deployment;
+$conn = new mysqli('host', 'username', 'password', 'dbname', port);  // port is optional check if required when u deploy 
 if ($conn->connect_error) {
     die("Database connection failed.");
 }
